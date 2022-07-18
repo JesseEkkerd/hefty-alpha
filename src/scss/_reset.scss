@@ -1,9 +1,5 @@
-/*
-  ==================================================
-    Andy Bell's Reset (with some minor adjustments)
-  ==================================================
-  https://piccalil.li/blog/a-modern-css-reset/
-*/
+// Andy Bell's Reset (with some minor adjustments)
+// https://piccalil.li/blog/a-modern-css-reset/
 
 /* Box sizing rules */
 *,
@@ -63,32 +59,4 @@ picture {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-/*
-  ====================
-    Custom properties
-  ====================
-*/
-:root {
-  --clr-primary: #143353;
-}
-
-/*
-  =============
-    Utilities
-  =============
-*/
-
-/* for screen readers only */
-.sr-only {
-  border-width: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute; 
-  white-space: nowrap; /* added line */
-  width: 1px;
-  margin: -1px;
 }
